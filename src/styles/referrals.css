@@ -1,0 +1,48 @@
+.referrals-page { display: flex; flex-direction: column; gap: 14px; padding-bottom: 8px; }
+.referrals-intro { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.referrals-kicker { font-size: 11px; font-weight: 800; letter-spacing: .22em; color: var(--green-600); }
+.referrals-intro h1 { margin-top: 6px; font-size: 28px; font-weight: 800; letter-spacing: -.02em; }
+.referrals-intro p { margin-top: 6px; font-size: 14px; line-height: 1.5; color: var(--muted); max-width: 240px; }
+.referral-counter { flex: none; min-width: 74px; padding: 10px 12px; border-radius: 18px; text-align: center; background: var(--green-800); color: #fff; }
+.referral-counter strong { display: block; font-size: 26px; line-height: 1; }
+.referral-counter span { display: block; margin-top: 4px; font-size: 9px; font-weight: 800; letter-spacing: .1em; color: var(--lime); text-transform: uppercase; }
+
+.invite-stage { position: relative; overflow: hidden; border-radius: 28px; padding: 22px 20px; min-height: 150px; color: #fff; background: radial-gradient(120% 140% at 85% 0%, #2a7d5e 0%, #1c5f47 45%, #154a38 100%); box-shadow: var(--shadow); }
+.invite-label { display: block; font-size: 11px; font-weight: 800; letter-spacing: .22em; color: var(--lime); }
+.invite-stage-copy strong { display: block; margin-top: 8px; font-size: 44px; line-height: 1; font-weight: 800; }
+.invite-stage-copy small { display: block; margin-top: 6px; font-size: 13px; color: rgba(255, 255, 255, .75); }
+.invite-progress { margin-top: 14px; width: 62%; height: 8px; border-radius: 999px; background: rgba(255, 255, 255, .16); overflow: hidden; }
+.invite-progress i { display: block; height: 100%; border-radius: inherit; background: var(--lime); }
+.network-orbit { position: absolute; right: 18px; top: 50%; width: 104px; height: 104px; transform: translateY(-50%); display: grid; place-items: center; }
+.network-orbit > span { position: absolute; border-radius: 50%; border: 1.5px dashed rgba(255, 255, 255, .26); }
+.network-orbit > span:nth-child(1) { inset: 0; }
+.network-orbit > span:nth-child(2) { inset: 14px; }
+.network-orbit > span:nth-child(3) { inset: 28px; }
+.network-orbit b { position: relative; width: 44px; height: 44px; display: grid; place-items: center; }
+.network-orbit b svg { width: 44px; height: 44px; }
+
+.referral-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.referral-facts > div { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 12px 8px; text-align: center; box-shadow: var(--shadow-soft); }
+.referral-facts span { display: block; font-size: 10px; font-weight: 800; letter-spacing: .14em; color: var(--muted); }
+.referral-facts strong { display: block; margin-top: 6px; font-size: 18px; font-weight: 800; }
+.referral-facts small { font-size: 10px; color: var(--muted); }
+
+.share-panel { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 16px; box-shadow: var(--shadow-soft); }
+.share-heading { display: flex; align-items: center; justify-content: space-between; }
+.share-heading span { font-size: 11px; font-weight: 800; letter-spacing: .2em; color: var(--green-600); text-transform: uppercase; }
+.share-heading h2 { margin-top: 4px; font-size: 18px; }
+.share-heading svg { width: 28px; height: 28px; color: var(--green-600); }
+.share-row { margin-top: 12px; display: flex; gap: 8px; }
+.share-row input { flex: 1; min-width: 0; height: 46px; border-radius: 14px; border: 1.5px solid var(--line-strong); background: var(--surface-2); padding: 0 12px; font-size: 13px; color: var(--text); }
+.share-row button { height: 46px; padding: 0 18px; border: 0; border-radius: 14px; background: var(--green-700); color: #fff; font-weight: 800; font-size: 13px; }
+.share-row button:disabled { opacity: .5; }
+.share-panel p { margin-top: 10px; font-size: 12.5px; color: var(--muted); }
+
+.steps-panel { position: relative; background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 16px; box-shadow: var(--shadow-soft); }
+.steps-heading span { display: block; font-size: 11px; font-weight: 800; letter-spacing: .2em; color: var(--green-600); }
+.steps-heading strong { display: block; margin-top: 4px; font-size: 17px; }
+.steps-line { display: none; }
+.ref-step { display: flex; gap: 12px; align-items: flex-start; margin-top: 14px; }
+.ref-step b { width: 36px; height: 36px; flex: none; border-radius: 12px; display: grid; place-items: center; background: var(--lime); color: var(--green-900); font-size: 13px; }
+.ref-step strong { font-size: 14px; letter-spacing: .06em; }
+.ref-step p { margin-top: 2px; font-size: 13px; color: var(--muted); line-height: 1.45; }

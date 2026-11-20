@@ -1,0 +1,4 @@
+.app-bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: var(--bg); }
+.app-bg__a, .app-bg__b { position: absolute; border-radius: 50%; filter: blur(60px); }
+.app-bg__a { width: 360px; height: 360px; top: -140px; right: -120px; background: rgba(142, 224, 47, .20); }
+.app-bg__b { width: 420px; height: 420px; bottom: -180px; left: -160px; background: rgba(58, 168, 118, .16); }
